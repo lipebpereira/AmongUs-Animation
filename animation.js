@@ -22,8 +22,13 @@ const animate = () => {
         width, height,
         0, 0,
         width, height
-    )
+    );
+
+    if (frames % 4 === 0)
+    {
+        playerFrame = (playerFrame + 1) % playerFrames;
+    }
+
     frames++;
-    console.log(frames);
     window.requestAnimationFrame(animate);
 }
