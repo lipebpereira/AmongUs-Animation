@@ -1,7 +1,3 @@
-# Felipe Portfólio
-
-# [Projeto: Among Us - animação](https://github.com/lipebpereira/AmongUs-Animacao)
+# Among Us animado
 
 * Sprite Among Us animada
-
-![](/images/AmongUs.png)
